@@ -1,1 +1,1 @@
-Consikta jurídica venezolana 
+Consulta jurídica venezolana 
