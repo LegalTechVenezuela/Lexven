@@ -325,6 +325,25 @@
   }
   .btn-logout:hover { color: #ff7070; }
 
+  /* ─── FOOTER DERECHOS ───────────────────────────────────── */
+  .footer-rights {
+    padding: 0.5rem 1.2rem;
+    border-top: 1px solid var(--border);
+    background: rgba(10,22,40,0.6);
+    text-align: center;
+    flex-shrink: 0;
+  }
+  .footer-rights p {
+    font-size: 0.72rem;
+    color: var(--gold-dim);
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+  }
+  .footer-rights span {
+    color: var(--gold);
+    font-weight: 600;
+  }
+
   /* ─── MAIN AREA ──────────────────────────────────────────── */
   .main {
     flex: 1; display: flex; flex-direction: column;
@@ -910,7 +929,8 @@
 
     <div class="login-footer">
       Al ingresar, acepta los <a>Términos de uso</a> del servicio.<br>
-      <span style="color:var(--gold-dim);font-size:0.75rem">LexVen — Información legal orientativa, no sustituto de asesoría profesional.</span>
+      <span style="color:var(--gold-dim);font-size:0.75rem">LexVen — Información legal orientativa, no sustituto de asesoría profesional.</span><br>
+      <span style="color:var(--gold-dim);font-size:0.72rem;display:block;margin-top:0.5rem;border-top:1px solid var(--border);padding-top:0.5rem;">© <strong style="color:var(--gold)">María Alejandra Lovera Valero</strong> · Abogada Corporativa<br>Valencia, Carabobo, Venezuela · Todos los derechos reservados</span>
     </div>
   </div>
 </div>
@@ -981,6 +1001,12 @@
 
       <span class="nav-label" id="history-label" style="display:none">Historial reciente</span>
       <div class="sidebar-history" id="history-list"></div>
+    </div>
+
+    <div class="footer-rights">
+      <p>© <span>María Alejandra Lovera Valero</span><br>
+      Abogada Corporativa · Valencia, Carabobo, Venezuela<br>
+      Todos los derechos reservados</p>
     </div>
 
     <div class="sidebar-user">
